@@ -42,12 +42,10 @@ print(f'Olá, {nome}, você tem {idade} anos!')
 numero_1 = input('Digite um número: ')
 numero_2 = input('Digite outro número: ')
 operador = input('Digite um operador +, -, * ou /: ')
-resultado = numero_1 operador numero_2
+resultado = numero_1 + operador + numero_2
 
 print(f'O resultado da operação é {resultado}.')
 
 
 
 #Desafio extra: cadastro de usuários Crie um programa que: Pergunte quantos usuários serão cadastrados. Para cada usuário, receba nome e idade. Armazene cada par (nome, idade) em uma lista de tuplas. Ao final, percorra a lista e imprima: Combine tudo o que aprendeu: input(), listas, tuplas, laços e f-strings.
-
-usuario = 
